@@ -75,7 +75,9 @@ Boot mode | Switch 1 | Switch 2 | Switch 3 | Switch 4
 SD card | ON | OFF | ON | ON
 
 ![Alt text](asset/image.png)
+
 **Figure 1.** Boot switches set to SD card mode
+
 
 4. Once the card is flashed, safely remove it from your computer and insert it into the Dev Board (the card's pins face toward the board). The board should not be powered on yet.
 
@@ -149,6 +151,7 @@ Now that you have the Mendel system on the board, you can initiate a secure shel
 First, connect a USB-C cable from your computer to the board's other USB port (labeled "OTG").
 
 ![Alt text](asset/image-4.png)
+
 **Figure 5.** The USB data and power cables connected
 
 
@@ -247,5 +250,34 @@ Execute the following commands from the Dev Board shell to run our image classif
 2. Download the model, labels, and bird photo:
 
     ``` bash
-    bash examples/install_requirements.sh classify_image.py
+    bash examples/install_requirements.sh 
     ```
+
+3. Run the image classifier with the bird photo (shown in figure 6):
+
+    ```bash
+    python3 examples/classify_image.py \
+    --model test_data/mobilenet_v2_1.0_224_inat_bird_quant_edgetpu.tflite \
+    --labels test_data/inat_bird_labels.txt \
+    --input test_data/parrot.jpg
+    ```
+
+![Alt text](asset/image-5.png)
+
+**Figure 6.** parrot.jpg
+
+You should see results like this:
+
+```bash
+----INFERENCE TIME----
+Note: The first inference on Edge TPU is slow because it includes loading the model into Edge TPU memory.
+13.1ms
+2.7ms
+3.1ms
+3.2ms
+3.1ms
+-------RESULTS--------
+Ara macao (Scarlet Macaw): 0.75781
+```
+
+Congrats! You just performed an inference on the Edge TPU using TensorFlow Lite.
