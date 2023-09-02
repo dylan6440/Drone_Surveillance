@@ -6,6 +6,8 @@ On this file you can [initalizing](#first-step-you-need-to-get-started-with-the-
 
 After init board you can run PyCoral API [here](#pycoral-api)
 
+For train model and view result go [here](yolov5/Train.ipynb)
+
 ## First step you need to get started with the google coral dev board
 
 ### 1 Gather requirements
