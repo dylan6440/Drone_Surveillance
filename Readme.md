@@ -31,3 +31,9 @@ The project is divided into three parts:
 In every directory, you'll find a readme to help you and set up our solution.
 
 
+![image](https://github.com/dylan6440/Drone_Surveillance/assets/70941138/8f9272ac-76d6-407e-aec9-3ebb29ec8237)
+
+![drone-inspiration-logo-transparent-m1](https://github.com/dylan6440/Drone_Surveillance/assets/70941138/120a4b03-be46-4e2c-a407-654e89c950ea)
+
+
+https://cdn.discordapp.com/attachments/1043267464496156715/1147979587406528584/logo_ynov_campus_bordeaux.png
