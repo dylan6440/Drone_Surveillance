@@ -8,6 +8,13 @@
 
 Welcome to the SEIA surveillance drone project. 
 
+You can clone the Project
+
+``` bash
+git clone https://github.com/dylan6440/Drone_Surveillance.git
+```
+
+
 Four students from Ynov Campus Bordeaux came up with the idea for this project and carried it out in partnership with Drone Inspiration in Poitier.
 
 
