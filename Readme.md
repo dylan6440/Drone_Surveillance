@@ -1,6 +1,10 @@
 # Projet Drone de Surveillance 
 
 
+<div style="text-align: center;">
+![alt text]([https://markdown.land/wp-content/uploads/2021/06/markdown-512px.png](https://github.com/dylan6440/Drone_Surveillance/assets/70941138/609e0abb-86d9-43c8-a580-601d513367c0) "Our logo")
+</div>
+
 ![2023-09-03_20h14_49](https://github.com/dylan6440/Drone_Surveillance/assets/70941138/609e0abb-86d9-43c8-a580-601d513367c0)
 
 
