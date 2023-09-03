@@ -1,7 +1,5 @@
 # Projet Drone de Surveillance 
 
-![drone](https://user-images.githubusercontent.com/70941138/202827923-4dc05dca-68d4-44fb-a339-2e16ad2f6367.jpg)
-
 
 ![2023-09-03_20h14_49](https://github.com/dylan6440/Drone_Surveillance/assets/70941138/609e0abb-86d9-43c8-a580-601d513367c0)
 
@@ -31,9 +29,9 @@ The project is divided into three parts:
 In every directory, you'll find a readme to help you and set up our solution.
 
 
-![image](https://github.com/dylan6440/Drone_Surveillance/assets/70941138/8f9272ac-76d6-407e-aec9-3ebb29ec8237)
 
 ![drone-inspiration-logo-transparent-m1](https://github.com/dylan6440/Drone_Surveillance/assets/70941138/120a4b03-be46-4e2c-a407-654e89c950ea)
 
 
-https://cdn.discordapp.com/attachments/1043267464496156715/1147979587406528584/logo_ynov_campus_bordeaux.png
+![logo_ynov_campus_bordeaux](https://github.com/dylan6440/Drone_Surveillance/assets/70941138/4f123293-40a5-4b0b-8942-a53fa8fbdf95)
+
