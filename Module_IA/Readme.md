@@ -288,3 +288,34 @@ Congrats! You just performed an inference on the Edge TPU using TensorFlow Lite.
 
 
 ## Deploy service
+
+First step you need to change ExecStart, WorkingDirectory and User
+
+```bash
+sudo nano reconnaisance.service
+```
+
+![image](https://github.com/dylan6440/Drone_Surveillance/assets/70941138/5f13d783-4084-4fd7-9aa1-c57c2f0ed519)
+
+
+after changing the components, you need to copy the file to system
+
+
+```bash
+sudo cp reconnaisance.service  /etc/systemd/system/reconnaisance.service
+```
+
+Now you can enable, start, look status , restart or stop the service.
+
+
+```bash
+sudo systemctl enable mon_script.service
+
+sudo systemctl start mon_script.service
+
+sudo systemctl status mon_script.service
+
+sudo systemctl restart mon_script.service
+
+sudo systemctl stop mon_script.service
+```
