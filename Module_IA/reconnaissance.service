@@ -2,8 +2,7 @@
 Description= Lancement automatique de la reconnaissance de personne
 
 [Service]
-ExecStart=/usr/bin/python3 /chemin/vers/votre/script.py
-WorkingDirectory=/chemin/vers/le/repertoire/de/votre/script/
+ExecStart=./reco.sh
 Restart=always
 User=mendel
 
