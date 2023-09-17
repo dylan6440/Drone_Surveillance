@@ -1,0 +1,11 @@
+[Unit]
+Description= Lancement automatique de la reconnaissance de personne
+
+[Service]
+ExecStart=/usr/bin/python3 /chemin/vers/votre/script.py
+WorkingDirectory=/chemin/vers/le/repertoire/de/votre/script/
+Restart=always
+User=mendel
+
+[Install]
+WantedBy=multi-user.target
