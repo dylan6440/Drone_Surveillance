@@ -2,7 +2,7 @@
 Description= Lancement automatique de la reconnaissance de personne
 
 [Service]
-ExecStart=./reco.sh
+ExecStart=/home/mendel/Drone_Surveillance/Module_IA/reco.sh
 Restart=always
 User=mendel
 
