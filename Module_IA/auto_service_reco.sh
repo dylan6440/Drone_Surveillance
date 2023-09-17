@@ -1,4 +1,4 @@
 #!/bin/bash
-sudo cp reconnaisance.service  /etc/systemd/system/reconnaisance.service
-sudo systemctl enable reconnaisance.service
-sudo systemctl start reconnaisance.service
+sudo cp reconnaissance.service  /etc/systemd/system/reconnaissance.service
+sudo systemctl enable reconnaissance.service
+sudo systemctl start reconnaissance.service
