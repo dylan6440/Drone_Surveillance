@@ -289,7 +289,14 @@ Congrats! You just performed an inference on the Edge TPU using TensorFlow Lite.
 
 ## Deploy service
 
-First step you need to change ExecStart, WorkingDirectory and User
+First step you need to add executable on file
+
+```bash
+sudo chmod +x reco.sh
+```
+
+
+Second step you need to change ExecStart, WorkingDirectory and User
 
 ```bash
 sudo nano reconnaisance.service
@@ -318,4 +325,11 @@ sudo systemctl status mon_script.service
 sudo systemctl restart mon_script.service
 
 sudo systemctl stop mon_script.service
+```
+
+Or you can use the auto file 
+
+```bash
+sudo chmod +x auto_service_reco.sh
+./auto_service_reco.sh
 ```
