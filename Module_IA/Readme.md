@@ -8,6 +8,8 @@ After init board you can run PyCoral API [here](#pycoral-api)
 
 For train model and view result go [here](yolov5/Train.ipynb)
 
+For deploy personalised recognition in Coral dev board [here](##Deploy-service-on-coral-dev-board)
+
 ## First step you need to get started with the google coral dev board
 
 ### 1 Gather requirements
@@ -283,3 +285,6 @@ Ara macao (Scarlet Macaw): 0.75781
 ```
 
 Congrats! You just performed an inference on the Edge TPU using TensorFlow Lite.
+
+
+## Deploy service on coral dev board
